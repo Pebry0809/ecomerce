@@ -2,6 +2,35 @@
 <html lang="en">
 
   <head>
+    <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-sixteen.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+
+  <!-- Tambahkan kode CSS internal di sini -->
+  <style>
+    .row {
+        display: flex;
+        flex-wrap: nowrap; /* Elemen tetap berada di satu baris */
+        overflow-x: auto; /* Tambahkan scroll horizontal jika diperlukan */
+        gap: 20px; /* Jarak antar produk */
+    }
+
+    .col-md-4 {
+        flex: 0 0 auto; /* Elemen tidak akan menyusut */
+        width: 300px; /* Lebar tetap untuk setiap produk */
+    }
+
+    /* Tambahkan media query untuk layar kecil */
+    @media (max-width: 768px) {
+        .row {
+            flex-wrap: wrap; /* Pada layar kecil, elemen akan melipat ke bawah */
+        }
+        .col-md-4 {
+            width: 100%; /* Lebar penuh pada perangkat kecil */
+        }
+    }
+  </style>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -61,6 +90,19 @@ https://templatemo.com/tm-546-sixteen-clothing
               <li class="nav-item">
                 <a class="nav-link" href="https://pebry0809.github.io/handphone/">Handphone</a>
               </li>
+                        <li class="nav-item">
+                <a class="nav-link" href="products.html">Samsung</a>
+              </li>
+                            <li class="nav-item">
+                <a class="nav-link" href="about.html">Vivo</a>
+                              <li class="nav-item">
+                <a class="nav-link" href="about.html">Oppo</a>
+                              <li class="nav-item">
+                <a class="nav-link" href="about.html">Xiaomi</a>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Realme</a
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Iphone</a>
               <li class="nav-item">
                 <a class="nav-link" href="warning.html">Contact Us</a>
               </li>
@@ -160,78 +202,57 @@ https://templatemo.com/tm-546-sixteen-clothing
     }
   }
 </style>
-          <div class="col-md-4">
-            <div class="product-item">
-              <a href="asusvivobook.html"><img src="assets/images/asusvivobook.jpg" alt=""></a>
-              <div class="down-content">
-                <a href="asusvivobook.html"><h4>Asus Vivoobook</h4></a>
-                <h6>Rp.9.499.000</h6>
-                <p>Asus Vivobook hadir dengan desain modern dan performa tangguh, cocok untuk kerja, belajar, dan hiburan. Dilengkapi prosesor cepat, layar jernih, serta fitur-fitur inovatif untuk menunjang aktivitas Anda sepanjang hari.</p>
-                <ul class="stars">
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                </ul>
-                <span>Reviews (24)</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="product-item">
-              <a href="lenovo-ip.html"><img src="assets/images/lenovoip.jpg" alt=""></a>
-              <div class="down-content">
-                <a href="lenovo-ip.html"><h4>Lenovo Idea Pad</h4></a>
-                <h6>Rp.10.299.000</h6>
-                <p>Lenovo IdeaPad menawarkan performa handal dengan desain yang simpel dan elegan. Ditenagai prosesor canggih, baterai tahan lama, dan layar berkualitas tinggi, laptop ini sempurna untuk produktivitas, belajar, hingga menikmati hiburan di mana saja</p>
-                <ul class="stars">
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                </ul>
-                <span>Reviews (21)</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="product-item">
-              <a href="axio-hype3.html"><img src="assets/images/axiohype3.jpg" alt=""></a>
-              <div class="down-content">
-                <a href="axio-hype3.html"><h4>Axio Hype 3</h4></a>
-                <h6>Rp.5.899.000</h6>
-                <p>Axioo MyBook Hype 3 hadir dengan desain ringan dan modern, cocok untuk pelajar, pekerja, dan pengguna sehari-hari. Dilengkapi prosesor efisien, layar HD jernih, dan penyimpanan luas, laptop ini mendukung produktivitas dan hiburan tanpa hambatan. Pilihan tepat untuk harga terjangkau!</p>
-                <ul class="stars">
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                </ul>
-                <span>Reviews (36)</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="product-item">
-              <a href="microsoft-surface4pro.html"><img src="assets/images/microsoftsurface4.jpg" alt=""></a>
-              <div class="down-content">
-                <a href="microsoft-surface4pro.html"><h4>Microsoft Surface Pro 4</h4></a>
-                <h6>Rp.4.599.000</h6>
-                <p>Microsoft Surface Pro 4 menawarkan fleksibilitas luar biasa dengan desain elegan dan performa tinggi. Ditenagai prosesor handal, layar PixelSense yang tajam, dan dukungan stylus untuk kreativitas tanpa batas. Cocok untuk profesional yang membutuhkan mobilitas dan produktivitas dalam satu perangkat!"</p>
-                <ul class="stars">
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                </ul>
-                <span>Reviews (48)</span>
-              </div>
-            </div>
-          </div>
+          <div class="container">
+  <div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="product-item">
+        <a href="asusvivobook.html"><img src="assets/images/asusvivobook.jpg" alt=""></a>
+        <div class="down-content">
+          <a href="asusvivobook.html"><h4>Asus Vivoobook</h4></a>
+          <h6>Rp.9.499.000</h6>
+          <p>Asus Vivobook hadir dengan desain modern dan performa tangguh...</p>
+          <span>Reviews (24)</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="product-item">
+        <a href="lenovo-ip.html"><img src="assets/images/lenovoip.jpg" alt=""></a>
+        <div class="down-content">
+          <a href="lenovo-ip.html"><h4>Lenovo Idea Pad</h4></a>
+          <h6>Rp.10.299.000</h6>
+          <p>Lenovo IdeaPad menawarkan performa handal dengan desain simpel...</p>
+          <span>Reviews (21)</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="product-item">
+        <a href="axio-hype3.html"><img src="assets/images/axiohype3.jpg" alt=""></a>
+        <div class="down-content">
+          <a href="axio-hype3.html"><h4>Axio Hype 3</h4></a>
+          <h6>Rp.5.899.000</h6>
+          <p>Axioo MyBook Hype 3 hadir dengan desain ringan dan modern...</p>
+          <span>Reviews (36)</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="product-item">
+        <a href="microsoft-surface4pro.html"><img src="assets/images/microsoftsurface4.jpg" alt=""></a>
+        <div class="down-content">
+          <a href="microsoft-surface4pro.html"><h4>Microsoft Surface Pro 4</h4></a>
+          <h6>Rp.4.599.000</h6>
+          <p>Microsoft Surface Pro 4 menawarkan fleksibilitas luar biasa...</p>
+          <span>Reviews (48)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
           <div class="col-md-4">
             <div class="product-item">
               <a href="hp845.html"><img src="assets/images/hp845g7.jpg" alt=""></a>
@@ -288,9 +309,9 @@ https://templatemo.com/tm-546-sixteen-clothing
           </div>
          <div class="col-md-4">
             <div class="product-item">
-              <a href="warning.html"><img src="assets/images/a555g.jpeg" alt=""></a>
+              <a href="a555g.html"><img src="assets/images/a555g.jpeg" alt=""></a>
               <div class="down-content">
-                <a href="warning.html"><h4>Samsung A55 5G</h4></a>
+                <a href="a555g.html"><h4>Samsung A55 5G</h4></a>
                 <h6>Rp.6.699.000</h6>
                 <p>Samsung Galaxy A55 5G hadir dengan teknologi 5G untuk konektivitas super cepat, layar AMOLED jernih, dan kamera berkualitas tinggi. Ditenagai prosesor tangguh, baterai tahan lama, dan desain elegan, smartphone ini sempurna untuk kebutuhan hiburan, produktivitas, dan fotografi sehari-hari</p>
                 <ul class="stars">
@@ -305,9 +326,9 @@ https://templatemo.com/tm-546-sixteen-clothing
             </div>
           </div>
             <div class="product-item">
-              <a href="warning.html"><img src="assets/images/n135g.jpeg" alt=""></a>
+              <a href="redminote135g.html"><img src="assets/images/n135g.jpeg" alt=""></a>
               <div class="down-content">
-                <a href="warning.html"><h4>Redmi Note 13 5G</h4></a>
+                <a href="redminote135g.html"><h4>Redmi Note 13 5G</h4></a>
                 <h6>Rp.2.799.000</h6>
                 <p>Redmi Note 13 5G hadir dengan desain stylish, layar AMOLED yang jernih, dan prosesor tangguh untuk performa maksimal. Dilengkapi kamera berkualitas tinggi, baterai besar, dan teknologi 5G untuk koneksi super cepat. Smartphone ideal untuk produktivitas, hiburan, dan gaming</p>
                 <ul class="stars">
@@ -323,9 +344,9 @@ https://templatemo.com/tm-546-sixteen-clothing
           </div>
           <div class="col-md-4">
             <div class="product-item">
-              <a href="warning.html"><img src="assets/images/v405g.jpeg" alt=""></a>
+              <a href="v5g.html"><img src="assets/images/v405g.jpeg" alt=""></a>
               <div class="down-content">
-                <a href="warning.html"><h4>Vivo V40 5G</h4></a>
+                <a href="v5g.html"><h4>Vivo V40 5G</h4></a>
                 <h6>Rp.6.999.000</h6>
                 <p>Vivo V40 5G menghadirkan pengalaman premium dengan desain ramping, layar AMOLED berkualitas tinggi, dan konektivitas 5G super cepat. Ditenagai prosesor handal, kamera canggih untuk fotografi memukau, serta baterai besar yang mendukung pengisian cepat. Pilihan sempurna untuk gaya hidup modern dan produktivitas tinggi</p>
                 <ul class="stars">
@@ -341,9 +362,9 @@ https://templatemo.com/tm-546-sixteen-clothing
           </div>
           <div class="col-md-4">
             <div class="product-item">
-              <a href="warning.html"><img src="assets/images/reno13.jpeg" alt=""></a>
+              <a href="reno135g.html"><img src="assets/images/reno13.jpeg" alt=""></a>
               <div class="down-content">
-                <a href="warning.html"><h4>Oppo Reno 13 5G</h4></a>
+                <a href="reno135g.html"><h4>Oppo Reno 13 5G</h4></a>
                 <h6>Rp.-</h6>
                 <p>Oppo Reno 13 5G hadir dengan desain premium, layar AMOLED yang memukau, dan konektivitas 5G untuk kecepatan tanpa batas. Dilengkapi kamera berkualitas tinggi untuk foto dan video yang sempurna, prosesor bertenaga, serta baterai tahan lama dengan pengisian cepat. Smartphone ideal untuk multitasking, gaming, dan fotografi profesional</p>
                 <ul class="stars">
@@ -359,9 +380,9 @@ https://templatemo.com/tm-546-sixteen-clothing
           </div>
            <div class="col-md-4">
             <div class="product-item">
-              <a href="warning.html"><img src="assets/images/c75.jpeg" alt=""></a>
+              <a href="c75.html"><img src="assets/images/c75.jpeg" alt=""></a>
               <div class="down-content">
-                <a href="warning.html"><h4>Realme C75</h4></a>
+                <a href="c75.html"><h4>Realme C75</h4></a>
                 <h6>Rp.2.399.000</h6>
                 <p>Realme C75 hadir dengan layar luas berkualitas tinggi, prosesor tangguh, dan baterai besar untuk penggunaan sepanjang hari. Dilengkapi kamera yang mumpuni, desain modern, serta kapasitas penyimpanan luas. Pilihan sempurna untuk kebutuhan sehari-hari dengan harga terjangkau!</p>
                 <ul class="stars">
@@ -377,9 +398,9 @@ https://templatemo.com/tm-546-sixteen-clothing
           </div>
            <div class="col-md-4">
             <div class="product-item">
-              <a href="warning.html"><img src="assets/images/tecno.jpeg" alt=""></a>
+              <a href="tecno20plus.html"><img src="assets/images/tecno.jpeg" alt=""></a>
               <div class="down-content">
-                <a href="warning.html"><h4>Tecno 20 +</h4></a>
+                <a href="tecno20plus.html"><h4>Tecno 20 +</h4></a>
                 <h6>Rp.-</h6>
                 <p>Tecno 20+ hadir dengan layar luas dan jernih, prosesor handal, serta kamera berkualitas tinggi untuk hasil foto dan video terbaik. Dilengkapi baterai besar dan teknologi pengisian cepat, smartphone ini cocok untuk multitasking, hiburan, dan aktivitas harian Anda. Pilihan ideal dengan harga bersahabat</p>
                 <ul class="stars">
@@ -395,9 +416,9 @@ https://templatemo.com/tm-546-sixteen-clothing
           </div>
            <div class="col-md-4">
             <div class="product-item">
-              <a href="warning.html"><img src="assets/images/i50pro.jpeg" alt=""></a>
+              <a href="i50pro.html"><img src="assets/images/i50pro.jpeg" alt=""></a>
               <div class="down-content">
-                <a href="warning.html"><h4>Infinix 50 Pro</h4></a>
+                <a href="i50pro.html"><h4>Infinix 50 Pro</h4></a>
                 <h6>Rp.-</h6>
                 <p>Infinix Zero 50 Pro hadir dengan desain elegan, layar AMOLED yang tajam, dan prosesor kuat untuk performa tanpa hambatan. Dilengkapi kamera utama berkualitas profesional untuk foto dan video yang menakjubkan, baterai besar dengan pengisian cepat, serta fitur canggih lainnya. Pilihan sempurna untuk pengguna modern yang membutuhkan kecepatan dan gaya</p>
                 <ul class="stars">
@@ -454,7 +475,7 @@ https://templatemo.com/tm-546-sixteen-clothing
             <div class="inner-content">
               <div class="row">
                 <div class="col-md-8">
-                  <h4>Creative &amp; Unique <em>Sixteen</em> Products</h4>
+                  <h4>Creative &amp; Unique <em>Febry</em> Products</h4>
                   <p><!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite author nulla. --></p>
                 </div>
                 <div class="col-md-4">
